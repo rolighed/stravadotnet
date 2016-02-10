@@ -73,6 +73,12 @@ namespace Strava.Athletes
         public int? Ftp { get; set; }
 
         /// <summary>
+        /// The functional threshold power.
+        /// </summary>
+        [JsonProperty("weight")]
+        public float? Weight { get; set; }
+
+        /// <summary>
         /// A list of the athlete's bikes.
         /// </summary>
         [JsonProperty("bikes")]
